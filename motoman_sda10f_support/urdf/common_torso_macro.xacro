@@ -16,6 +16,11 @@
           <mesh filename="package://motoman_sda10f_support/meshes/sda10f/collision/base.stl" />
         </geometry>
       </collision>
+      <inertial>
+            <mass value="5" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0.004" ixy="0.001" ixz="0" iyy="0.006" iyz="0" izz="0.007" />
+        </inertial>
     </link>
     <link name="${prefix}link_b1">
       <visual>
@@ -33,8 +38,14 @@
           <mesh filename="package://motoman_sda10f_support/meshes/sda10f/collision/link_b1.stl" />
         </geometry>
       </collision>
+      <inertial>
+            <mass value="5" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0.004" ixy="0.001" ixz="0" iyy="0.006" iyz="0" izz="0.007" />
+        </inertial>
     </link>
     <link name="${prefix}link_b2"/>
+    
 
     <!-- joint list -->
     <joint name="${prefix}joint_b1" type="revolute">

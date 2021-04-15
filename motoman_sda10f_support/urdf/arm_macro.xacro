@@ -17,6 +17,11 @@
           <mesh filename="package://motoman_sda10f_support/meshes/sda10f/collision/link_s.stl" />
         </geometry>
       </collision>
+      <inertial>
+            <mass value="0.5" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0.004" ixy="0.001" ixz="0" iyy="0.006" iyz="0" izz="0.007" />
+        </inertial>
     </link>
     <link name="${prefix}link_2_l">
       <visual>
@@ -32,6 +37,11 @@
           <mesh filename="package://motoman_sda10f_support/meshes/sda10f/collision/link_l.stl"/>
         </geometry>
       </collision>
+      <inertial>
+            <mass value="0.5" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0.004" ixy="0.001" ixz="0" iyy="0.006" iyz="0" izz="0.007" />
+        </inertial>
     </link>
     <link name="${prefix}link_3_e">
       <visual>
@@ -47,6 +57,11 @@
           <mesh filename="package://motoman_sda10f_support/meshes/sda10f/collision/link_e.stl"/>
         </geometry>
       </collision>
+      <inertial>
+            <mass value="0.5" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0.004" ixy="0.001" ixz="0" iyy="0.006" iyz="0" izz="0.007" />
+        </inertial>
     </link>
     <link name="${prefix}link_4_u">
       <visual>
@@ -62,6 +77,11 @@
           <mesh filename="package://motoman_sda10f_support/meshes/sda10f/collision/link_u.stl"/>
         </geometry>
       </collision>
+      <inertial>
+            <mass value="0.5" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0.004" ixy="0.001" ixz="0" iyy="0.006" iyz="0" izz="0.007" />
+        </inertial>
     </link>
     <link name="${prefix}link_5_r">
       <visual>
@@ -77,6 +97,11 @@
           <mesh filename="package://motoman_sda10f_support/meshes/sda10f/collision/link_r.stl"/>
         </geometry>
       </collision>
+      <inertial>
+            <mass value="0.5" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0.004" ixy="0.001" ixz="0" iyy="0.006" iyz="0" izz="0.007" />
+        </inertial>
     </link>
     <link name="${prefix}link_6_b">
       <visual>
@@ -92,6 +117,11 @@
           <mesh filename="package://motoman_sda10f_support/meshes/sda10f/collision/link_b.stl"/>
         </geometry>
       </collision>
+        <inertial>
+            <mass value="0.5" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0.004" ixy="0.001" ixz="0" iyy="0.006" iyz="0" izz="0.007" />
+        </inertial>
     </link>
     <link name="${prefix}link_7_t">
       <visual>
@@ -105,6 +135,11 @@
           <mesh filename="package://motoman_sda10f_support/meshes/sda10f/collision/link_t.stl" />
         </geometry>
       </collision>
+      <inertial>
+            <mass value="0.5" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0.004" ixy="0.001" ixz="0" iyy="0.006" iyz="0" izz="0.007" />
+        </inertial>
     </link>
     <link name="${prefix}link_tool0" />
 
