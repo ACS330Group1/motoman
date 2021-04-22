@@ -23,7 +23,9 @@
         <arg name="use_sim_time" value="$(arg use_sim_time)"/>
         <arg name="headless" value="$(arg headless)"/>
     </include>
-	  
+	
+    <include file="$(find motoman_sda10f_moveit_config)/launch/move_group.launch"/>
+
 	<arg name="model" default="$(find motoman_sda10f_support)/urdf/sda10f.xacro"/>
 
 	<node name="moto_spawn" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf  -param robot_description -model sda10f"/>
